@@ -1,0 +1,64 @@
+body {
+    background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../assets/img/resume-bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.leftmenu {
+    top: 114px;
+    left: 5px;
+    width: 120px;
+    bottom: 39px;
+    z-index: 1;
+    padding-top: 15px;
+    border-right: solid 3px #555555;
+    background-color: #FFE5B4;
+}
+
+.topmenu {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 3;
+    border-bottom: solid 3px #555555;
+    background-color: #FFE5B4;
+}
+
+.topdetails {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+a {
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    color:#2e2e2e;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.main-content {
+    top: 122px;
+    left: 134px;
+    padding-right: 5px;
+    padding-left: 10px;
+    z-index: 1;
+    background-color: #FFE5B4;
+    border: solid 3px #555555;
+    position: absolute;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.extra-padding {
+    padding-bottom: 30px;
+    padding-left: 10px;
+}
